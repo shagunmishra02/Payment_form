@@ -1,0 +1,80 @@
+*{
+    box-sizing:content-box;
+    border-radius: 40px;
+    border-color: brown;
+    background-color: rgb(127, 187, 135);
+    
+}
+body{
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 300;
+    padding: 10px;
+}
+
+.container1{
+    padding: 15px 50px 65px 40px;
+    margin-top: 20px;
+    border: 3px saddlebrown;
+   border-radius: 100px;
+   height: auto;
+   width: auto;
+   font-style: italic;
+   
+   font-family: 'Times New Roman', Times, serif;
+   text-decoration: chocolate;
+   
+}
+.container2{
+    font-style: italic;
+   text-align: center;
+   font-family: 'Times New Roman', Times, serif;
+   text-decoration: chocolate;
+   
+}
+form{
+   float: left;
+   fill: yellow;
+   text-shadow:  1px;
+  
+}
+.main_heading{
+    text-align: center;
+    font-weight: 600;
+    font-style: italic;
+   -webkit-text-fill-color:yellow;
+   -webkit-text-stroke-width: 2px;
+   
+}
+input[type="text"],
+input[type="number"],
+input[type="radio"],
+input[type="email"],
+input[type="date"],
+textarea{
+    width: 100%;
+    border-spacing: 20px;
+    word-wrap:normal ;
+    word-spacing: 3px;
+    margin: 10px;
+    padding: 11px;
+    border-radius: 5px;
+}
+input[type="submit"],
+input[type="reset"]{
+    padding: 20px;
+    margin: 20px;
+    font-style: oblique;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 100%;
+
+}
+input[type="submit"]:hover,
+input[type="reset"]:hover{
+    color: tomato;
+    background-color: yellow;
+    font-weight:500 ;
+}
+
+
+
