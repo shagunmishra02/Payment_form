@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment form</title>
+    <link rel="stylesheet" href="paymentform2.css">
+</head>
+<body>
+    <div class="container">
+    <form action="">      <!--action mein server ki location jati jati hai jisme details jayegi abhi koi server nhi hai to no blank chodha hai-->
+        <h1 class="main_heading"> PAYMENT FORM</h1>
+        <h4> required fields are marked by "*" </h4>
+        <h2> contact information </h2>
+        <P><B>NAME:*</B><input type="text" name="name" placeholder="shagun mishra" required></P>   <!--form mein jab bhi input use krenge to saath mein name tag bhi use krenge tab hi server mein jayegi cheeze-->
+        <fieldset>
+            <legend> <b> GENDER*</b></legend>
+            <p>
+            male <input type="radio" name="gender"  id="male" required>
+            female <input type="radio" name="gender" id="female" required> 
+            
+        </p>
+    </fieldset>
+    <p> <B><legend>ADDRESS</legend></B><textarea name="address" id="address" cols="100" rows="8"></textarea></p>
+    <p> <b> EMAIL:</b> <input TYPE="email" name="email" id="email" required></p>
+    <p> <b> PINCODE:</b> <input type="number" name="pincode" placeholder="302004" id="pincode"></p>
+
+<HR>
+    <h2> PAYMENT INFORMATION*</h2>
+    <P><b> CARD TYPE:*</b>
+        <select NAME="card_type" id="card_type"> 
+            <option value="">--select a card type-- </option> <!--value ke aage jagah khali chodhi kunki agar likh dete to server vhi value le leta bina user ke select kre-->
+            <option value="visa"> visa</option>
+            <option value="mastercard"> mastercard </option>
+            <option value="rupay"> rupay </option>
+            </select>
+    </P>
+    <p>
+        <b>card number*</b> <input type="number" name="card number" id="card number">
+    </p>
+    <p> <b>expiration date:*</b> <input type="date" name="exp_date" id="exp_date" </p>
+    <p> <b>CVV:* </b><input type="password" name="CVV" id="CVV"></p>
+   <input type="submit" value="pay now">
+    <input type="reset" value="reset">  
+</form>
+</div>
+</body>
+</html>
+
+<hr>
+
+    
